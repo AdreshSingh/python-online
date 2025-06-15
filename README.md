@@ -1,4 +1,4 @@
-# Mini Python Projects
+# Mini Python Projects ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png)
 
 This repository contains three beginner-friendly Python GUI projects built using Tkinter:
 
