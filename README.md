@@ -2,21 +2,38 @@
 
 This repository contains three beginner-friendly Python GUI projects built using Tkinter:
 
+- **Calculator**
 - **Digital Clock**
 - **Notepad**
-- **Calculator**
 
 Each project is self-contained and demonstrates the use of Tkinter for building desktop applications.
 
 ---
 
-## 1. Digital Clock
+## 1. Calculator
+
+**File:** [`calculator.py`](calculator.py)
+
+A simple calculator with a GUI for basic arithmetic operations.
+
+### Functions in Caculator
+
+- **`calculate(click_btn)`**  
+  Handles button clicks:
+  - If `=` is pressed, evaluates the expression in the display.
+  - If `C` is pressed, clears the display.
+  - If `X` is pressed, adds a multiplication operator (`*`).
+  - Otherwise, appends the pressed button's value to the display.
+
+---
+
+## 2. Digital Clock
 
 **File:** [`digital-clock.py`](digital-clock.py)
 
 A simple digital clock that displays the current time and date, with a colored circle indicating AM/PM.
 
-### Main Functions
+### Functions in Digital Clock
 
 - **`update_clock_time()`**  
   Updates the time and date labels every second using the current system time.  
@@ -27,13 +44,13 @@ A simple digital clock that displays the current time and date, with a colored c
 
 ---
 
-## 2. Notepad
+## 3. Notepad
 
 **File:** [`notepad.py`](notepad.py)
 
 A basic text editor that allows you to open, edit, and save text files. Includes menu options and keyboard shortcuts.
 
-### Main Functions
+### Functions in Notepad
 
 - **`aboutApp(e=None)`**  
   Shows an "About" dialog with app information.
@@ -55,29 +72,12 @@ A basic text editor that allows you to open, edit, and save text files. Includes
 
 ---
 
-## 3. Calculator
-
-**File:** [`calculator.py`](calculator.py)
-
-A simple calculator with a GUI for basic arithmetic operations.
-
-### Main Functions
-
-- **`calculate(click_btn)`**  
-  Handles button clicks:
-  - If `=` is pressed, evaluates the expression in the display.
-  - If `C` is pressed, clears the display.
-  - If `X` is pressed, adds a multiplication operator (`*`).
-  - Otherwise, appends the pressed button's value to the display.
-
----
-
 ## How to Run
 
 Each project can be run individually:
 
 ```sh
-python [digital-clock.py](http://_vscodecontentref_/0)
-python [notepad.py](http://_vscodecontentref_/1)
-python [calculator.py](http://_vscodecontentref_/2)
+python [calculator.py](calculator.py)
+python [digital-clock.py](digital-clock.py)
+python [notepad.py](notepad.py)
 ```
